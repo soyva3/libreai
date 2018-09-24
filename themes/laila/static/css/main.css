@@ -31,8 +31,28 @@ p {
 
 /*Form*/
 .form {
+}
+
+/* project */
+
+.project-title {
+  font-size: 1.5rem;
 
 }
+.project-text {
+
+
+}
+.project-category {
+  font-size: 1rem;
+  color: var(--hue1);
+}
+a.project-client, .project-client {
+  text-decoration: none;
+  font-size: 1rem;
+  color: var(--primary);
+}
+
 
 /* Menu */
 .text-menu {
