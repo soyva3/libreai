@@ -3,12 +3,12 @@
 
 name = "Laila"
 license = "MIT"
-licenselink = "https://github.com/yourname/yourtheme/blob/master/LICENSE.md"
+licenselink = "https://github.com/soyva3/libreai/blob/master/LICENSE"
 description = ""
 homepage = "http://libreai.com/"
 tags = []
 features = []
-min_version = "0.0.1"
+min_version = "0.2"
 
 [author]
   name = "To The Moon Studio"
