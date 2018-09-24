@@ -1,0 +1,20 @@
+  <div class="container">
+    <div class="row">
+      {{ range .Site.Data.projects }}
+      <div class="col-md-6 py-3">
+        <div class="card">
+
+          <img class="card-img-top" src="{{ .imgurl | absURL  }}" alt="Card image cap">
+
+            <div class="card-body">
+              <h4 class="card-title">{{ .title }}</h4>
+              <p class="card-category">{{ .category }}</p>
+              <p class="card-text">{{ .description }}</p>
+              <p><a href="{{ .clientLink | absURL  }}" class="card-client">Client: {{ .client }}</a></p>
+        <!--  <a href="#" class="card-link">Read More</a> -->
+          </div>
+        </div>
+      </div>
+      {{ end }}
+    </div>
+  </div>

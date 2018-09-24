@@ -1,0 +1,32 @@
+{{- with .Data.Pages }}
+<div class="py-5">
+  <div class="container">
+    <div class="row">
+      {{- range .item }}
+      <div class="col-md-6 py-5">
+        <div class="card">
+          {{ if .Params.imgurl }}
+          <img class="card-img-top" src="img/portfolio/{{ . }}" alt="Card image cap">
+          {{ end }}
+            <div class="card-body">
+              {{ if .Params.title }}
+              <h4 class="card-title">{{ . }}</h4>
+              {{ end }}
+              {{ if .Params.client }}
+              <p class="card-client">{{ . }}</p>
+              {{ end }}
+              {{ if .Params.category }}
+              <p class="card-category">{{ . }}</p>
+              {{ end }}
+              {{ if .Params.description }}
+              <p class="card-text">{{ . }}</p>
+              {{ end }}
+              <a href="#" class="card-link">Read More</a>
+          </div>
+        </div>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</div>
+{{- end }}

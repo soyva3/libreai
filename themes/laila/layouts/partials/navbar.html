@@ -1,0 +1,19 @@
+{{- with .Site.Params.navbar }}
+<nav class="navbar navbar-expand-md navbar-light sticky-top bg-dark" >
+  <div class="container">
+    <a class="navbar-brand" href="#">
+      <img src="{{ .logo }}" height="40" class="d-inline-block align-top" alt="">
+    </a>
+    <button class="navbar-toggler navbar-toggler-right border-0" type="button" data-toggle="collapse" data-target="#navbar4">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbar4">
+      <ul class="navbar-nav ml-auto">
+        {{- range .menu }}
+        <li class="nav-item "> <a class="nav-link text-menu px-4" href="{{ .link }}">{{ .text }} <i class="{{ .icon }}"></i></a> </li>
+        {{- end }}
+      </ul>
+    </div>
+  </div>
+</nav>
+{{- end }}

@@ -1,0 +1,13 @@
+{{- with .Site.Params.intro }}
+<section id="intro" class="intro">
+  <div class="container">
+    <div class="row text-center">
+      <div class="col-md-10 mx-auto">
+        <img class="img-fluid d-block mx-auto py-5" src="{{ .image }}" width="750">
+        <h1>{{ .title }}</h1>
+        <p>{{ .subtitle }}</p>
+      </div>
+    </div>
+  </div>
+</section>
+{{- end }}

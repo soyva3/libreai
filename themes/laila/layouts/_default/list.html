@@ -1,0 +1,32 @@
+{{ define "main" }}
+<div class="py-5">
+  <div class="container">
+    <div class="row">
+      {{ range .Site.Data.projects }}
+      <div class="col-md-6 py-5">
+        <div class="card">
+          {{ if .imgurl }}
+          <img class="card-img-top" src="img/portfolio/{{ .imgurl }}" alt="Card image cap">
+          {{ end }}
+            <div class="card-body">
+              {{ with .title }}
+              <h4 class="card-title">{{ . }}</h4>
+              {{ end }}
+              {{ with .client }}
+              <p class="card-client">{{ . }}</p>
+              {{ end }}
+              {{ with .category }}
+              <p class="card-category">{{ . }}</p>
+              {{ end }}
+              {{ with .description }}
+              <p class="card-text">{{ . }}</p>
+              {{ end }}
+              <a href="#" class="card-link">Read More</a>
+          </div>
+        </div>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</div>
+{{ end }}

@@ -1,0 +1,14 @@
+{{- with .Site.Params.partners }}
+<section id="partner" class="partner">
+    <div class="container text-center py-5">
+      <h2>Partners</h2>
+      <section class="customer-logos slider">
+        {{- range .partner }}
+        <div class="mx-auto py-4 col-12 slide">
+          <img src="{{ .logo }}" class="partner-img" alt="1">
+        </div>
+        {{- end }}
+      </section>
+    </div>
+</section>
+{{- end }}

@@ -1,0 +1,171 @@
+baseURL = "https://libreai.com/"
+languageCode = "en-us"
+title = "Libre AI"
+theme = "laila"
+googleAnalytics = "UA-123456"
+
+[params]
+	name = "Libre AI"
+	description = "AI for all"
+	favicon = "/favicon.ico"
+	mailchimpURL = "//my-account.mailchimp.com/my-subscriber-url"
+
+# Menu Section
+[params.navbar]
+  logo = "/img/logo-white.png"
+  [[params.navbar.menu]]
+    link = "/"
+    text = "Home"
+		icon = ""
+  [[params.navbar.menu]]
+    link = "/about"
+    text = "Who we are"
+		icon = ""
+  [[params.navbar.menu]]
+    link = "/project"
+    text = "Projects"
+		icon = ""
+# [[params.navbar.menu]]
+#   link = "#"
+#   text = "Portfolio"
+# 	icon = ""
+#	[[params.navbar.menu]]
+#		link = "#"
+#		text = "Contact"
+#		icon = ""
+	[[params.navbar.menu]]
+		link = "https://medium.com/libreai"
+		text = "Blog"
+		icon = "fab fa-medium"
+
+# Intro section
+[params.intro]
+	title = "Libre AI"
+	subtitle = "Our mission is to widely disseminate the benefits of Artificial Intelligence and Machine Learning and make them accessible to the world."
+	subsubtitle = "We leverage Big Data and the power of AI/ML to craft solutions, fuel innovation, and improve decision-making for clients in the commercial, public, and social sectors."
+	image = "/img/ia.jpg"
+
+# Services Section
+[params.service]
+	title = "title"
+	[[params.service.item]]
+		titleLeft = "AI and ML solutions crafted for you"
+		imgLeft = "/img/robot.png"
+		descriptionLeft = "Data Science solutions based on AI/ML that maximize the power of the data to surface new insights, risks, and opportunities."
+		buttonLeft = "Read more"
+		linkLeft = "3"
+		titleRight = "Science and Engineering Excellence"
+		imgRight = "/img/astro.png"
+		descriptionRight = "We love science and engineering and take advantage of them to get the most out of your data."
+		buttonRight = "Read more"
+		linkRight = "#"
+
+# Partner section
+
+[params.partners]
+	title = "Partners"
+	[[params.partners.partner]]
+		logo = "img/Go-Logo_Aqua.png"
+	[[params.partners.partner]]
+		logo = "img/Go-Logo_Black.png"
+	[[params.partners.partner]]
+		logo = "img/Go-Logo_Blue.png"
+	[[params.partners.partner]]
+		logo = "img/Go-Logo_Fuchsia.png"
+	[[params.partners.partner]]
+		logo = "img/Go-Logo_LightBlue.png"
+	[[params.partners.partner]]
+		logo = "img/Go-Logo_Blue.png"
+
+# Form placeholder section
+	[params.form]
+	title = "Contact"
+	name = "Name"
+	email = "E-mail"
+	subject = "Subject"
+	message = "Your Message"
+	send = "Send"
+
+# Footer section
+	[params.footer]
+
+		[[params.footer.menu]]
+		text = "Privacy Policy"
+		link = "#"
+		[[params.footer.menu]]
+		text = "Terms and Conditions"
+		link = "#"
+
+		[[params.footer.icon]]
+		icon = "fab fa-facebook fa-lg"
+		link = "#"
+		[[params.footer.icon]]
+		icon = "fab fa-twitter fa-lg"
+		link = "#"
+
+		[[params.footer.text]]
+		text = "Libre AI"
+		description = "Libre AI is registered in Ireland. Company Number: 611117"
+
+# About section
+	[params.about]
+		image = "/img/ia.jpg"
+		title = "About Us"
+		about = "We leverage Big Data and the power of AI/ML to craft solutions, fuel innovation, and improve decision-making for clients in the commercial, public, and social sectors."
+
+# Team section
+	[params.team]
+		title = ""
+		[[params.team.founder]]
+			name = "Dr. Ernesto Diaz-Aviles"
+			position = "Co-Founder and CEO"
+			img = "/img/vedax.png"
+			twitter = "https://twitter.com/vedax"
+			linkedin = "https://www.linkedin.com/in/ernestodiazaviles/"
+			[[params.team.founder.about]]
+				about = "Ernesto is a seasoned scientist and engineer with over 15 years of experience deploying AI, ML, and Data-driven solutions at scale. He has successfully created products and services based on cutting-age AI/ML research for a variety of industries that range from banking, energy, telco, news media, online advertising, education, transportation, and tourism. As Libre AI CEO, his goal is to lead the path for AI democratization to make the benefits of AI accessible to all."
+			[[params.team.founder.about]]
+				about = "Ernesto also serves as Adjunct Assistant Professor at the University College Dublin (UCD). He is the former Chief Data Scientist and VP at Citi’s Innovation Lab, and a Research Scientist at IBM Research. Before that, Ernesto was a Research Fellow at L3S Research Center."
+			[[params.team.founder.about]]
+				about = "Ernesto holds a PhD (magna cum laude) in Computer Science from the Web Science Lab, L3S Research Center, in the University of Hannover, Germany, a MSc in Computer Science from the University of Freiburg, Germany, and a BSc in Electrical Engineering from the Central American University (UCA), El Salvador."
+
+		[[params.team.founder]]
+			name = "Claudia Orellana-Rodriguez, M.Sc."
+			position = "Co-Founder and Chief Scientific Officer"
+			img = "/img/clau.png"
+			twitter = "https://twitter.com/claor9"
+			linkedin = "https://www.linkedin.com/in/claudia-orellana-rodriguez/"
+			[[params.team.founder.about]]
+				about = "Claudia is a scientist and engineer whose work leverages the power of machine learning, natural language processing, social network analysis, and opinion mining to unveil patterns of engagement, attention and influence on the digital era."
+			[[params.team.founder.about]]
+				about = "Claudia is also a researcher at the Insight Centre for Data Analytics in the University College Dublin (UCD), where she works on advancing our understanding of news consumption in Social Media and on bridging the gap between technical findings and their practical application."
+			[[params.team.founder.about]]
+				about = "In 2016, Claudia joined the MIT Media Lab and worked at the MIT Center for Civic Media where she conducted research with the MediaCloud team on identifying influential American news outlets."
+			[[params.team.founder.about]]
+				about = "Claudia was a researcher at the L3S Research Center in the Leibniz University in Hannover, Germany, where she received her Master's of Science degree. During her stay at the L3S Research Center, she worked on several European projects involving research on crowdsourcing, multimedia information retrieval, and sentiment analysis applied to video ranking and presidential popularity prediction. Claudia also holds a B.Sc. degree from the University of El Salvador (UES)."
+
+# Project intro section
+	[params.project]
+		title = "Projects"
+		description = "We leverage Big Data and the power of AI/ML to craft solutions, fuel innovation, and improve decision-making for clients in the commercial, public, and social sectors."
+
+
+
+
+
+
+
+	# Contact section
+	[params.contact]
+		headline = "Libre AI"
+		# headline = "Contact us"
+		description = "Ready to start your next project with us? That's great! <br/>  Let's connect on LinkedIn to talk about the details."
+		#phone = ""
+		#email = ""
+		linkedin = "https://www.linkedin.com/in/ernestodiazaviles/"
+
+	# Google Maps section
+	# [params.location]
+	# 	latitude  = "34.007850"
+	# 	longitude = "-118.499305"
+	# 	maps_api_key = ""

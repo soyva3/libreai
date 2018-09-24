@@ -1,0 +1,22 @@
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  {{ with .Site.Params.name }}
+  <meta name="author" content="{{ . }}">
+  {{ end }}
+  {{ with .Site.Params.description }}
+  <meta name="description" content="{{ . }}">
+  {{ end }}
+
+  <title>{{ .Page.Title }}</title>
+  {{ "<!-- Favicon -->" | safeHTML }}
+  <link rel="shortcut icon" href="{{ .Site.Params.favicon | absURL }}">
+
+  {{ "<!-- Custom Fonts -->" | safeHTML }}
+  <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Mono|Source+Sans+Pro" rel="stylesheet">
+
+  {{ "<!-- Bootstrap 4.1.3 -->" | safeHTML }}
+  <link rel="stylesheet" href="{{ "css/bootstrap.css" | absURL }}" type="text/css">
+  <link rel="stylesheet" href="{{ "css/main.css" | absURL }}" type="text/css">
+
+  
