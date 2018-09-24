@@ -1,0 +1,37 @@
+{{- with .Site.Params.service }}
+{{- range .item }}
+  <section class="serv1">
+    <div class="container py-5 ">
+      <div class="row align-items-center">
+        <div class="col-sm-8">
+          <h2>{{ .titleLeft }}</h2>
+          <h4 class="text-services">{{ .descriptionLeft }}</h4>
+          <br>
+          <a class="btn btn-outline-primary" href="{{ .linkLeft }}" role="button">{{ .buttonLeft }}</a>
+        </div>
+        <div class="col-sm-4 px-5">
+          <img src="{{ .imgLeft }}" class="img-fluid" alt="">
+          <span class="glyphicon glyphicon-signal logo"></span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<section class="serv2">
+    <div class="container py-5">
+      <div class="row">
+        <div class="col-md-6 order-2 order-md-1">
+          <img src="{{ .imgRight }}" class="img-fluid" >
+          <span class="glyphicon glyphicon-signal logo"></span>
+        </div>
+        <div class="px-md-5 col-md-6 d-flex flex-column align-items-start justify-content-center order-1 order-md-2">
+          <h2>{{ .titleRight }}</h2>
+          <h4 class="text-services">{{ .descriptionRight }}</h4>
+          <br>
+          <a class="btn btn-outline-secondary" href="{{ .linkRight }}" role="button">{{ .buttonRight }}</a>
+        </div>
+      </div>
+    </div>
+  </section>
+{{- end }}
+{{- end }}
