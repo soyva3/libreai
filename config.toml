@@ -13,10 +13,10 @@ googleAnalytics = "UA-123456"
 # Menu Section
 [params.navbar]
   logo = "/img/logo-white.png"
-  [[params.navbar.menu]]
-    link = "/"
-    text = "Home"
-		icon = ""
+#  [[params.navbar.menu]]
+#    link = "/"
+#    text = "Home"
+#		icon = ""
   [[params.navbar.menu]]
     link = "/about"
     text = "Who we are"

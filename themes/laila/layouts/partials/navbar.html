@@ -1,7 +1,7 @@
 {{- with .Site.Params.navbar }}
 <nav class="navbar navbar-expand-md navbar-light sticky-top bg-dark" >
   <div class="container">
-    <a class="navbar-brand" href="#">
+    <a class="navbar-brand" href="{{ "/" | absURL }}">
       <img src="{{ .logo }}" height="40" class="d-inline-block align-top" alt="">
     </a>
     <button class="navbar-toggler navbar-toggler-right border-0" type="button" data-toggle="collapse" data-target="#navbar4">
