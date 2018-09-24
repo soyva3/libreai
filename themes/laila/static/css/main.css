@@ -33,6 +33,11 @@ p {
 .form {
 }
 
+/*call to action*/
+.cta {
+  background-color: var(--secondary);
+}
+
 /* project */
 
 .project-title {

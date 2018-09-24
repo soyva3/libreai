@@ -150,7 +150,12 @@ googleAnalytics = "UA-123456"
 		description = "We leverage Big Data and the power of AI/ML to craft solutions, fuel innovation, and improve decision-making for clients in the commercial, public, and social sectors."
 
 
-
+# Call to action
+	[params.cta]
+		[[params.cta.front]]
+		text = "This is a call to action!"
+		button = "Any action?"
+		link = "#"
 
 
 
