@@ -50,15 +50,15 @@ googleAnalytics = "UA-123456"
 	title = "title"
 	[[params.service.item]]
 		titleLeft = "AI and ML solutions crafted for you"
-		imgLeft = "/img/robot.png"
+		imgLeft = "/img/ia.jpg"
 		descriptionLeft = "Data Science solutions based on AI/ML that maximize the power of the data to surface new insights, risks, and opportunities."
-		buttonLeft = "Read more"
-		linkLeft = "3"
+		buttonLeft = "Projects"
+		linkLeft = "/project"
 		titleRight = "Science and Engineering Excellence"
-		imgRight = "/img/astro.png"
+		imgRight = "/img/ml.jpg"
 		descriptionRight = "We love science and engineering and take advantage of them to get the most out of your data."
-		buttonRight = "Read more"
-		linkRight = "#"
+		buttonRight = "Projects"
+		linkRight = "/project"
 
 # Partner section
 

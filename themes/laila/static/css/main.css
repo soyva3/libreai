@@ -35,8 +35,12 @@ p {
 
 /*call to action*/
 .cta {
-  background-color: var(--secondary);
+  background-color: var(--dark);
 }
+.cta-text {
+  color: var(--light);
+}
+
 
 /* project */
 
@@ -75,14 +79,12 @@ a.text-menu {
   padding : 3% 15% 5% 15%;
 }
 
-.serv1 {
-  background-color: var(--secondary);
+.serv1, .serv2 {
+  padding: 5% 0;
 }
-.serv2 {
-    background-color: #73c2fb;
-  }
-
-
+.serv1 {
+  background-color: var(--light);
+}
 
 .partner-img {
     width: 80%;
