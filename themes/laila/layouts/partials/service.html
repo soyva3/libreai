@@ -1,13 +1,13 @@
 {{- with .Site.Params.service }}
 {{- range .item }}
-  <section class="serv1">
+  <section class="s5 bg-light">
     <div class="container py-2 ">
       <div class="row align-items-center">
         <div class="col-sm-6">
-          <h2>{{ .titleLeft }}</h2>
-          <h4 class="text-services">{{ .descriptionLeft }}</h4>
+          <h2 class="title-2">{{ .titleLeft }}</h2>
+          <h4 class="text-mono subtitle-2">{{ .descriptionLeft }}</h4>
           <br>
-          <a class="btn btn-outline-primary" href="{{ .linkLeft }}" role="button">{{ .buttonLeft }}</a>
+          <a class="btn btn-outline-primary text-mono" href="{{ .linkLeft }}" role="button">{{ .buttonLeft }}</a>
         </div>
         <div class="col-sm-6">
           <img src="{{ .imgLeft | absURL }}" class="img-fluid" alt="">
@@ -16,7 +16,7 @@
     </div>
   </section>
 
-<section class="serv2">
+<section class="s5">
     <div class="container py-2">
       <div class="row align-items-center">
         <div class="col-sm-6  mx-auto">
@@ -24,10 +24,10 @@
           <span class="glyphicon glyphicon-signal logo"></span>
         </div>
         <div class="col-sm-6">
-          <h2>{{ .titleRight }}</h2>
-          <h4 class="text-services">{{ .descriptionRight }}</h4>
+          <h2 class="title-2">{{ .titleRight }}</h2>
+          <h4 class="text-mono subtitle-2">{{ .descriptionRight }}</h4>
           <br>
-          <a class="btn btn-outline-secondary" href="{{ .linkRight }}" role="button">{{ .buttonRight }}</a>
+          <a class="btn btn-outline-secondary text-mono" href="{{ .linkRight }}" role="button">{{ .buttonRight }}</a>
         </div>
       </div>
     </div>

@@ -168,12 +168,15 @@ googleAnalytics = "UA-123456"
     [[params.engagement.item]]
     title = "First Talk"
     description = "Lets drink a coffee and talk about the benefits of AI solutions for your business"
+    image = "/img/ia.jpg"
     [[params.engagement.item]]
     title = "Solution Blueprint"
     description = "Once we talk the same language is time to define priorities and an action plan"
+    image = "/img/ml.jpg"
     [[params.engagement.item]]
     title = "Sudo Apt Deploy!"
     description = "It's time to implement the plan, so the ROI is coming really soon"
+    image = "/img/ia.jpg"
 
 # Pricing
   [params.pricing]
