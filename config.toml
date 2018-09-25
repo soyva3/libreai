@@ -162,17 +162,20 @@ googleAnalytics = "UA-123456"
 		button = "Any action?"
 		link = "#"
 
+# Engagemente process section
+  [params.engagement]
+    title = "Our methodology"
+    subtitle = "Our engagement model drives a strategic process that helps organizations identify and design a roadmap"
+    [[params.engagement.item]]
+    title = "First Talk"
+    description = "Lets drink a coffee and talk about the benefits of AI solutions for your business"
+    [[params.engagement.item]]
+    title = "Solution Blueprint"
+    description = "Once we talk the same language is time to define priorities and an action plan"
+    [[params.engagement.item]]
+    title = "Sudo Apt Deploy!"
+    description = "It's time to implement the plan, so the ROI is coming really soon"
 
-
-
-	# Contact section
-	[params.contact]
-		headline = "Libre AI"
-		# headline = "Contact us"
-		description = "Ready to start your next project with us? That's great! <br/>  Let's connect on LinkedIn to talk about the details."
-		#phone = ""
-		#email = ""
-		linkedin = "https://www.linkedin.com/in/ernestodiazaviles/"
 
 	# Google Maps section
 	# [params.location]
