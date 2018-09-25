@@ -154,7 +154,6 @@ googleAnalytics = "UA-123456"
 		title = "Projects"
 		description = "We leverage Big Data and the power of AI/ML to craft solutions, fuel innovation, and improve decision-making for clients in the commercial, public, and social sectors."
 
-
 # Call to action
 	[params.cta]
 		[[params.cta.front]]
@@ -175,6 +174,43 @@ googleAnalytics = "UA-123456"
     [[params.engagement.item]]
     title = "Sudo Apt Deploy!"
     description = "It's time to implement the plan, so the ROI is coming really soon"
+
+# Pricing
+  [params.pricing]
+    title = "Pricing"
+    description = "This is just a non awesome placeholder description for the pricing area, so you shoul try to write something awesome and eyecatching."
+  [[params.pricing.item]]
+      title = "Free"
+      price = "$12"
+      time = "/ day"
+      buttonText = "Sign Up"
+      buttonLink = "#"
+      fact1 = "This is a great idea"
+      fact2 = ""
+      fact3 = "Just buy it"
+      fact4 = "It's awesome"
+  [[params.pricing.item]]
+      title = "Regular"
+      price = "$12"
+      time = "/ sec"
+      buttonText = "Try it"
+      buttonLink = "#"
+      fact1 = "Great investement"
+      fact2 = "This is just a fact"
+      fact3 = "Just buy it"
+      fact4 = "It's awesome"
+  [[params.pricing.item]]
+      title = "Expensive"
+      price = "$122"
+      time = "/ hour"
+      buttonText = "The deal"
+      buttonLink = "#"
+      fact1 = "Create everything"
+      fact2 = ""
+      fact3 = "What are you waiting for"
+      fact4 = "It's awesome"
+
+
 
 
 	# Google Maps section

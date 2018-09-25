@@ -1,0 +1,40 @@
+{{- with .Site.Params.pricing }}
+<section class="bg-dark py-5">
+  <div class="pt-5 text-center ">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-9 mx-auto">
+          <h1 class="display-4 text-white">{{ .title }}</h1>
+          <p class="lead text-white">{{ .description }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="text-center">
+    <div class="container">
+      <div class="row pt-4 justify-content-md-center align-items-center">
+        {{- range .item }}
+        <div class="col-md-4">
+          <div class="card mb-4 box-shadow">
+            <div class="card-header">
+              <h4 class="my-0 font-weight-normal"> {{ .title }}</h4>
+            </div>
+            <div class="card-body">
+              <h3 class="display-4"><b>{{ .price }}</b></h3>
+              <p class="text-muted">{{ .time }}</small></p>
+              <ul class="list-unstyled mt-3 mb-4">
+                {{ if .fact1 }}<li>{{ .fact1 }}</li><hr>{{ end }}
+                {{ if .fact2 }}<li>{{ .fact2 }}</li><hr>{{ end }}
+                {{ if .fact3 }}<li>{{ .fact3 }}</li><hr>{{ end }}
+                {{ if .fact4 }}<li>{{ .fact4 }}</li><hr>{{ end }}
+              </ul>
+              <a class="btn btn-outline-secondary" href="{{ .buttonLink }}" role="button">{{ .buttonText }}</a>
+            </div>
+          </div>
+        </div>
+        {{- end }}
+      </div>
+    </div>
+  </div>
+</section>
+{{- end }}
