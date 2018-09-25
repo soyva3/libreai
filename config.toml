@@ -4,11 +4,16 @@ title = "Libre AI"
 theme = "laila"
 googleAnalytics = "UA-123456"
 
+# Links format
+
+[permalinks]
+  post = "/:year/:month/:title/"
+
 [params]
 	name = "Libre AI"
 	description = "AI for all"
 	favicon = "/favicon.ico"
-	mailchimpURL = "//my-account.mailchimp.com/my-subscriber-url"
+	mailchimpURL = "#"
 
 # Menu Section
 [params.navbar]
