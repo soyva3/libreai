@@ -1,11 +1,12 @@
 {{- with .Site.Params.service }}
 {{- range .item }}
+{{- if .titleLeft }}
   <section class="s5 bg-light">
     <div class="container py-2 ">
       <div class="row align-items-center">
         <div class="col-sm-6">
-          <h2 class="title-2">{{ .titleLeft }}</h2>
-          <h4 class="text-mono subtitle-2">{{ .descriptionLeft }}</h4>
+          <h2 class="title-2 text-medium">{{ .titleLeft }}</h2>
+          <h4 class="subtitle-2 text-mono">{{ .descriptionLeft }}</h4>
           <br>
           <a class="btn btn-outline-primary text-mono" href="{{ .linkLeft }}" role="button">{{ .buttonLeft }}</a>
         </div>
@@ -15,7 +16,8 @@
       </div>
     </div>
   </section>
-
+{{- end }}
+{{- if .titleRight }}
 <section class="s5">
     <div class="container py-2">
       <div class="row align-items-center">
@@ -24,13 +26,14 @@
           <span class="glyphicon glyphicon-signal logo"></span>
         </div>
         <div class="col-sm-6">
-          <h2 class="title-2">{{ .titleRight }}</h2>
-          <h4 class="text-mono subtitle-2">{{ .descriptionRight }}</h4>
+          <h2 class="title-2 text-medium">{{ .titleRight }}</h2>
+          <h4 class="subtitle-2 text-mono">{{ .descriptionRight }}</h4>
           <br>
-          <a class="btn btn-outline-secondary text-mono" href="{{ .linkRight }}" role="button">{{ .buttonRight }}</a>
+          <a class="btn btn-outline-primary text-mono" href="{{ .linkRight }}" role="button">{{ .buttonRight }}</a>
         </div>
       </div>
     </div>
   </section>
+{{- end }}
 {{- end }}
 {{- end }}

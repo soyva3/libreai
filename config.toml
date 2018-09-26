@@ -48,22 +48,33 @@ googleAnalytics = "UA-123456"
 	title = "Libre AI"
 	subtitle = "Our mission is to widely disseminate the benefits of Artificial Intelligence and Machine Learning and make them accessible to the world."
 	subsubtitle = "We leverage Big Data and the power of AI/ML to craft solutions, fuel innovation, and improve decision-making for clients in the commercial, public, and social sectors."
-	image = "/img/ia.jpg"
+#	image = "/img/ia.jpg"
 
 # Services Section
 [params.service]
 	title = "title"
 	[[params.service.item]]
 		titleLeft = "AI and ML solutions crafted for you"
-		imgLeft = "/img/ia.jpg"
+		imgLeft = "/img/ai-1.svg"
 		descriptionLeft = "Data Science solutions based on AI/ML that maximize the power of the data to surface new insights, risks, and opportunities."
 		buttonLeft = "Projects"
 		linkLeft = "/project"
 		titleRight = "Science and Engineering Excellence"
-		imgRight = "/img/ml.jpg"
+		imgRight = "/img/ml-1.svg"
 		descriptionRight = "We love science and engineering and take advantage of them to get the most out of your data."
 		buttonRight = "Projects"
 		linkRight = "/project"
+  [[params.service.item]]
+		titleLeft = "Growth of your Organization with an AI-boost"
+		imgLeft = "/img/ds-1.svg"
+		descriptionLeft = "AI and ML will fuel innovation in your organization and improve your decision-making processes."
+		buttonLeft = "Projects"
+		linkLeft = "/project"
+		titleRight = ""
+		imgRight = ""
+		descriptionRight = ""
+		buttonRight = ""
+		linkRight = ""
 
 # Partner section
 
@@ -114,7 +125,7 @@ googleAnalytics = "UA-123456"
 
 # About section
 	[params.about]
-		image = "/img/ia.jpg"
+		image = "/img/laila.svg"
 		title = "About Us"
 		about = "We leverage Big Data and the power of AI/ML to craft solutions, fuel innovation, and improve decision-making for clients in the commercial, public, and social sectors."
 
@@ -168,15 +179,15 @@ googleAnalytics = "UA-123456"
     [[params.engagement.item]]
     title = "First Talk"
     description = "Lets drink a coffee and talk about the benefits of AI solutions for your business"
-    image = "/img/ia.jpg"
+    image = "/img/1.svg"
     [[params.engagement.item]]
     title = "Solution Blueprint"
     description = "Once we talk the same language is time to define priorities and an action plan"
-    image = "/img/ml.jpg"
+    image = "/img/2.svg"
     [[params.engagement.item]]
     title = "Sudo Apt Deploy!"
     description = "It's time to implement the plan, so the ROI is coming really soon"
-    image = "/img/ia.jpg"
+    image = "/img/3.svg"
 
 # Pricing
   [params.pricing]
