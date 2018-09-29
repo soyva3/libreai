@@ -210,7 +210,7 @@ a.text-menu {
 }
 @media (min-width: 992px) {
   .intro-bg {
-    background-size: 80%;
+    background-size: 90%;
     background-position: left left;
   }
 }
