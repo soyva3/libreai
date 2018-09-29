@@ -174,19 +174,19 @@ googleAnalytics = "UA-123456"
 
 # Engagemente process section
   [params.engagement]
-    title = "Our methodology"
-    subtitle = "Our engagement model drives a strategic process that helps organizations identify and design a roadmap"
+    title = "Our engagement model"
+    subtitle = "Our methodology drives a strategic process that helps organizations identify and design a roadmap that leverages Element AI products to drive significant impact on their business."
     [[params.engagement.item]]
-    title = "First Talk"
-    description = "Lets drink a coffee and talk about the benefits of AI solutions for your business"
+    title = "Vision Development"
+    description = "The first step is to develop a common understanding with your executive team around AI. We'll align around a vision for specific opportunities within your industry."
     image = "/img/1.svg"
     [[params.engagement.item]]
-    title = "Solution Blueprint"
-    description = "Once we talk the same language is time to define priorities and an action plan"
+    title = "Roadmap Development"
+    description = "Once there is a common vision of what AI opportunities are available, we’ll work together to develop a roadmap and prioritize initiatives to align with the vision created."
     image = "/img/2.svg"
     [[params.engagement.item]]
-    title = "Sudo Apt Deploy!"
-    description = "It's time to implement the plan, so the ROI is coming really soon"
+    title = "Solution Deployment"
+    description = "After we have a roadmap, we'll work together to define requirements, validate data, and deploy relevant and impactful AI products. The goal is to implement a suite of AI processes that drive significant return on investment and efficiency within your organization."
     image = "/img/3.svg"
 
 # Pricing
@@ -211,7 +211,7 @@ googleAnalytics = "UA-123456"
       buttonLink = "#"
       fact1 = "Great investement"
       fact2 = "This is just a fact"
-      fact3 = "Just buy it"
+      fact3 = ""
       fact4 = "It's awesome"
   [[params.pricing.item]]
       title = "Expensive"
@@ -223,6 +223,11 @@ googleAnalytics = "UA-123456"
       fact2 = ""
       fact3 = "What are you waiting for"
       fact4 = "It's awesome"
+
+
+
+
+
 
 
 
