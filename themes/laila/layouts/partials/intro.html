@@ -1,11 +1,10 @@
 {{- with .Site.Params.intro }}
-<section id="intro" class="full-height ">
-  <div class="container-fluid intro-bg">
+<section class="h-100">
+  <div class="container-fluid intro-bg full-height">
 
-  <div class="container-fluid intro">
-    <div class="row text-center">
-      <div class="col-md-10 mx-auto p-3 bg-light">
-        <img class="img-fluid d-block mx-auto py-3" src="{{ .image }}" width="750">
+  <div class="container-fluid intro full-height">
+    <div class="row text-center align-self-center">
+      <div class="col-md-10 mx-auto p-3 bg-light py-4">
         <h1 class="title-1 text-dark text-mono">{{ .title }}</h1>
         <p class="subtitle-1 pt-4 text-dark">{{ .subtitle }}</p>
 
