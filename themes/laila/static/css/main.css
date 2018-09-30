@@ -809,3 +809,7 @@ a.text-footer {
 .fa-heart {
   color: var(--light)
 }
+
+.text-cc {
+  font-size: 0.8rem !important;
+}
