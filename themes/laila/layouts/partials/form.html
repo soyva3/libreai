@@ -1,26 +1,26 @@
 {{- with .Site.Params.form }}
-<section class="s3 bg-hue2">
+<section class="s3 bg-hue3">
   <div class="text-center py-5">
     <div class="container">
       <div class="row">
         <div class="mx-auto col-md-8">
-          <h2 class="title-2 text-light text-mono pb-4">{{ .title }}</h2>
+          <h2 class="title-2 text-dark text-mono pb-4">{{ .title }}</h2>
           <form>
             <div class="form-row">
               <div class="form-group col-md-6">
-                <input type="text" class="form-control py-4" placeholder="{{ .name }}">
+                <input type="text" class="form-control py-4 text-mono" placeholder="{{ .name }}">
               </div>
                 <div class="form-group col-md-6">
-                  <input type="email" class="form-control py-4" placeholder="{{ .email }}">
+                  <input type="email" class="form-control py-4 text-mono" placeholder="{{ .email }}">
               </div>
                 </div>
                 <div class="form-group">
-                  <input type="text" class="form-control py-4" placeholder="{{ .subject }}">
+                  <input type="text" class="form-control py-4 text-mono" placeholder="{{ .subject }}">
             </div>
                   <div class="form-group">
-                    <textarea class="form-control py-4" rows="4" placeholder="{{ .message }}"></textarea>
+                    <textarea class="form-control py-4 text-mono" rows="4" placeholder="{{ .message }}"></textarea>
                   </div>
-                  <button type="submit" class="button btn-primary text-mono">{{ .send }}</button>
+                  <button type="submit" class="button btn-black text-mono">{{ .send }}</button>
           </form>
         </div>
       </div>

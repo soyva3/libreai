@@ -1,4 +1,4 @@
-baseURL = "https://libreai.com/"
+baseURL = "https://lai-hugo.firebaseapp.com"
 languageCode = "en-us"
 title = "Libre AI"
 theme = "laila"
