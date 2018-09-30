@@ -3,6 +3,7 @@ languageCode = "en-us"
 title = "Libre AI"
 theme = "laila"
 googleAnalytics = "UA-123456"
+enableRobotsTXT = "true"
 
 # Links format
 

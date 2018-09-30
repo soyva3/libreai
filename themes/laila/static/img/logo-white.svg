@@ -1,142 +1,15 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-
-<svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="576.38104mm"
-   height="206.81992mm"
-   viewBox="0 0 2042.2951 732.82647"
-   id="svg9588"
-   version="1.1"
-   inkscape:version="0.92.2 5c3e80d, 2017-08-06"
-   sodipodi:docname="logo-white.svg"
-   inkscape:export-filename="/home/vedax/projectsX/libreai/logo/libre_ai_logo_and_text.png"
-   inkscape:export-xdpi="300.06"
-   inkscape:export-ydpi="300.06">
-  <sodipodi:namedview
-     id="base"
-     pagecolor="#ffffff"
-     bordercolor="#666666"
-     borderopacity="1.0"
-     inkscape:pageopacity="0.0"
-     inkscape:pageshadow="2"
-     inkscape:zoom="0.49497475"
-     inkscape:cx="1164.2667"
-     inkscape:cy="455.6671"
-     inkscape:document-units="px"
-     inkscape:current-layer="g3345"
-     showgrid="false"
-     fit-margin-top="0"
-     fit-margin-left="0"
-     fit-margin-right="0"
-     fit-margin-bottom="0"
-     inkscape:window-width="1920"
-     inkscape:window-height="1035"
-     inkscape:window-x="0"
-     inkscape:window-y="1"
-     inkscape:window-maximized="1"
-     showguides="true"
-     inkscape:guide-bbox="true"
-     inkscape:snap-grids="false"
-     inkscape:snap-to-guides="false" />
-  <defs
-     id="defs9590" />
-  <metadata
-     id="metadata9593">
-    <rdf:RDF>
-      <cc:Work
-         rdf:about="">
-        <dc:format>image/svg+xml</dc:format>
-        <dc:type
-           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
-      </cc:Work>
-    </rdf:RDF>
-  </metadata>
-  <g
-     transform="translate(63.058932,41.004342)"
-     id="layer1"
-     inkscape:groupmode="layer"
-     inkscape:label="Layer 1">
-    <g
-       id="g3345">
-      <g
-         inkscape:export-ydpi="300.06"
-         inkscape:export-xdpi="300.06"
-         inkscape:export-filename="/Users/bluebalam/projectsX/libreai/sandbox/www_themes/libreai.com/themes/hugo-fresh/static/img/logos/logo.png"
-         transform="translate(91.07143,31.358322)"
-         id="g69">
-        <g
-           id="g9565"
-           style="display:inline;opacity:1"
-           transform="translate(128494.32,-19022.19)">
-          <rect
-             y="-19666.941"
-             x="-128641.2"
-             height="708.04858"
-             width="105.19054"
-             id="rect4256-6-1-3-3-0-3-2-9"
-             style="display:inline;opacity:1;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:14.49447441;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-             transform="scale(1,-1)" />
-          <rect
-             style="display:inline;opacity:1;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:18.70322418;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-             id="rect4288-2-29-6-4-2-1-2-8"
-             width="672.23132"
-             height="100.91298"
-             x="-128638.92"
-             y="-19669.926"
-             transform="scale(1,-1)" />
-          <rect
-             style="display:inline;opacity:1;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:15.64494896;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-             id="rect4288-2-29-6-4-2-1-2-8-3"
-             width="456.52844"
-             height="103.97128"
-             x="-128422.72"
-             y="-19061.621"
-             transform="scale(1,-1)" />
-          <rect
-             y="-19475.066"
-             x="-128425.33"
-             height="514.75403"
-             width="107.2084"
-             id="rect4256-6-1-3-3-0-3-2-9-3"
-             style="display:inline;opacity:1;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:12.47661686;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-             transform="scale(1,-1)" />
-          <rect
-             style="display:inline;opacity:1;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:15.64494896;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-             id="rect4288-2-29-6-4-2-1-2-8-3-3"
-             width="456.52847"
-             height="103.97129"
-             x="-128422.1"
-             y="-19477.863"
-             transform="scale(1,-1)" />
-          <rect
-             y="-19478.77"
-             x="-128220.93"
-             height="517.84381"
-             width="107.17309"
-             id="rect4256-6-1-3-3-0-3-2-9-3-3"
-             style="display:inline;opacity:1;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:12.51194286;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-             transform="scale(1,-1)" />
-        </g>
-        <text
-           id="text3340"
-           y="656.8017"
-           x="516.1554"
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:0%;font-family:sans-serif;-inkscape-font-specification:'Sans, Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-           xml:space="preserve"><tspan
-             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:375px;line-height:50%;font-family:Roboto;-inkscape-font-specification:'Roboto, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;opacity:1"
-             y="656.8017"
-             x="516.1554"
-             id="tspan3342"
-             sodipodi:role="line"> Libre AI</tspan></text>
-      </g>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2042.2951 732.82647">
+  <g fill="#fff">
+    <g stroke="#fff">
+      <path stroke-width="14.49447441" d="M7.250362 717.113664h105.19054V9.065084H7.250362z"/>
+      <path stroke-width="18.70322418" d="M9.530362 720.098664h672.23132v-100.91298H9.530362z"/>
+      <path stroke-width="15.64494896" d="M225.730362 111.793664h456.52844V7.822384h-456.52844z"/>
+      <path stroke-width="12.47661686" d="M223.120362 525.238664h107.2084V10.484634h-107.2084z"/>
+      <path stroke-width="15.64494896" d="M226.350362 528.035664h456.52847v-103.97129h-456.52847z"/>
+      <path stroke-width="12.51194286" d="M427.520362 528.942664h107.17309V11.098854h-107.17309z"/>
     </g>
+    <text x="516.1554" y="656.8017" font-family="sans-serif" font-weight="700" letter-spacing="0" style="line-height:0%;-inkscape-font-specification:'Sans, Bold';text-align:start" transform="translate(154.130362 72.362664)" word-spacing="0">
+      <tspan x="516.1554" y="656.8017" font-family="Roboto" font-size="375" style="line-height:50%;-inkscape-font-specification:'Roboto, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start">Libre AI</tspan>
+    </text>
   </g>
 </svg>
