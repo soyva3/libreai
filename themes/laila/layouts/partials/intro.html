@@ -1,17 +1,17 @@
 {{- with .Site.Params.intro }}
-<section class="h-100 bg-light">
-  <div class="container-fluid intro-bg full-height">
+<section class="h-100 bg-light intro-bg">
+  <div class="container-fluid full-height">
 
-  <div class="container-fluid intro full-height">
-    <div class="row text-center align-self-center">
-      <div class="col-md-10 mx-auto p-3 bg-light py-4">
-        <h1 class="title-1 text-dark text-mono">{{ .title }}</h1>
-        <p class="subtitle-1 pt-4 text-dark">{{ .subtitle }}</p>
+    <div class="container-fluid intro full-height">
+      <div class="row text-center align-self-end">
+        <div class="col-md-10 mx-auto p-3 bg-light py-4 ">
+          <h1 class="title-1 text-dark text-mono">{{ .title }}</h1>
+          <p class="subtitle-1 pt-4 text-dark">{{ .subtitle }}</p>
 
+        </div>
       </div>
     </div>
   </div>
-</div>
 </section>
 {{- end }}
 
