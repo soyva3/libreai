@@ -805,3 +805,7 @@ a.text-footer {
 .laila {
   width: 38rem;
 }
+
+.fa-heart {
+  color: var(--light)
+}

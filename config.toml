@@ -122,7 +122,8 @@ enableRobotsTXT = "true"
 
 		[[params.footer.text]]
 		text = "Libre AI"
-		description = "Libre AI is registered in Ireland. Company Number: 611117"
+		description = "We leverage Big Data and the power of AI/ML to craft solutions, fuel innovation, and improve decision-making for clients in the commercial, public, and social sectors."
+    trademark = "Libre AI is registered in Ireland. Company Number: 611117"
 
 # About section
 	[params.about]
