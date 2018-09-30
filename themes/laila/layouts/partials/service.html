@@ -1,39 +1,39 @@
 {{- with .Site.Params.service }}
 {{- range .item }}
 {{- if .titleLeft }}
-  <section class="s5 bg-light">
-    <div class="container py-2 ">
-      <div class="row align-items-center">
-        <div class="col-xs-12 col-sm-6">
-          <h2 class="title-2 text-medium text-left">{{ .titleLeft }}</h2>
-          <h4 class="subtitle-2 text-mono text-left">{{ .descriptionLeft }}</h4>
-          <br>
-          <a class="button btn-black text-mono" href="{{ .linkLeft }}" role="button">{{ .buttonLeft }}</a>
-        </div>
-        <div class="col-xs-12 col-sm-6 order-1">
-          <img src="{{ .imgLeft | absURL }}" class="img-fluid" alt="">
+<section class="s5 bg-light">
+  <div class="container py-2 ">
+    <div class="row align-items-center">
+      <div class="col-xs-12 col-sm-6">
+        <h2 class="title-2 text-medium text-left">{{ .titleLeft }}</h2>
+        <h4 class="subtitle-2 text-mono text-left">{{ .descriptionLeft }}</h4>
+        <br>
+        <a class="button btn-black text-mono" href="{{ .linkLeft }}" role="button">{{ .buttonLeft }}</a>
+      </div>
+      <div class="col-xs-12 col-sm-6 order-1">
+        <img src="{{ .imgLeft | absURL }}" class="img m-5" alt="">
         </div>
       </div>
     </div>
-  </section>
+</section>
 {{- end }}
 {{- if .titleRight }}
 <section class="s5">
-    <div class="container py-2">
-      <div class="row align-items-center">
-        <div class="col-sm-6  mx-auto">
-          <img src="{{ .imgRight | absURL }}" class="img-fluid" alt="">
-          <span class="glyphicon glyphicon-signal logo"></span>
-        </div>
-        <div class="col-sm-6">
-          <h2 class="title-2 text-medium text-left">{{ .titleRight }}</h2>
-          <h4 class="subtitle-2 text-mono text-left">{{ .descriptionRight }}</h4>
-          <br>
-          <a class="button btn-black text-mono" href="{{ .linkRight }}" role="button">{{ .buttonRight }}</a>
-        </div>
+  <div class="container py-2">
+    <div class="row align-items-center">
+      <div class="col-sm-6  mx-auto">
+        <img src="{{ .imgRight | absURL }}" class="img m-5" alt="">
+        <span class="glyphicon glyphicon-signal logo"></span>
+      </div>
+      <div class="col-sm-6">
+        <h2 class="title-2 text-medium text-left">{{ .titleRight }}</h2>
+        <h4 class="subtitle-2 text-mono text-left">{{ .descriptionRight }}</h4>
+        <br>
+        <a class="button btn-black text-mono" href="{{ .linkRight }}" role="button">{{ .buttonRight }}</a>
       </div>
     </div>
-  </section>
+  </div>
+</section>
 {{- end }}
 {{- end }}
 {{- end }}
