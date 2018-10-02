@@ -15,7 +15,7 @@ enableRobotsTXT = "true"
   	title = "Libre AI" #max 70 characters
   	description = "We leverage Big Data and the power of AI/ML to craft solutions, fuel innovation, and improve decision-making for clients in the commercial, public, and social sectors." #max 200 characters
     url = "https://libreai.com"
-    image = "/img/p1.png"#JPG, PNG, WEBP and GIF. SVG not supporter. Max 5MB.
+    image = "/img/p1.png" #JPG, PNG, WEBP and GIF. SVG not supporter. Max 5MB.
     twitterUser = "@libreai" # @user
   [[params.meta.projects]]
   	title = "Libre AI Projects" #max 70 characters
