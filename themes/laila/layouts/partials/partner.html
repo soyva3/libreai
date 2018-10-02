@@ -1,14 +1,15 @@
+{{ "<!-- Partner section -->" | safeHTML }}
 {{- with .Site.Params.partners }}
 <section id="partner" class="s5">
-    <div class="container text-center">
-      <h2 class="title-2 py-3 text-center text-mono">Partners</h2>
-      <section class="customer-logos slider">
-        {{- range .partner }}
-        <div class="mx-auto py-4 col-12 slide">
-          <img src="{{ .logo | absURL }}" class="partner-img" alt="1">
-        </div>
-        {{- end }}
-      </section>
-    </div>
+  <div class="container text-center">
+    <h2 class="title-2 py-3 text-center text-mono">Partners</h2>
+    <section class="customer-logos slider">
+      {{- range .partner }}
+      <div class="mx-auto py-4 col-12 slide">
+        <img src="{{ .logo | absURL }}" class="partner-img" alt="1">
+      </div>
+      {{- end }}
+    </section>
+  </div>
 </section>
 {{- end }}

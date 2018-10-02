@@ -1,3 +1,40 @@
+//.................................................................................................
+//.LLLLL..........IIII..IBBBBBBBBBBBB.....RRRRRRRRRRRRR....EEEEEEEEEEEEEE.......AAAAAA......AIIII..
+//.LLLLL..........IIII..IBBBBBBBBBBBBB....RRRRRRRRRRRRRR...EEEEEEEEEEEEEE......AAAAAAA......AIIII..
+//.LLLLL..........IIII..IBBBBBBBBBBBBBB...RRRRRRRRRRRRRRR..EEEEEEEEEEEEEE......AAAAAAA......AIIII..
+//.LLLLL..........IIII..IBBBB.....BBBBB...RRRR.....RRRRRR..EEEEE...............AAAAAAAA.....AIIII..
+//.LLLLL..........IIII..IBBBB.....BBBBB...RRRR.......RRRR..EEEEE..............AAAAAAAAA.....AIIII..
+//.LLLLL..........IIII..IBBBB.....BBBBB...RRRR.......RRRR..EEEEE..............AAAA.AAAA.....AIIII..
+//.LLLLL..........IIII..IBBBB...BBBBBBB...RRRR......RRRRR..EEEEE..............AAAA.AAAAA....AIIII..
+//.LLLLL..........IIII..IBBBBBBBBBBBBB....RRRR....RRRRRRR..EEEEEEEEEEEEE.....AAAAA..AAAA....AIIII..
+//.LLLLL..........IIII..IBBBBBBBBBBBBB....RRRRRRRRRRRRRR...EEEEEEEEEEEEE.....AAAA...AAAA....AIIII..
+//.LLLLL..........IIII..IBBBBBBBBBBBBBB...RRRRRRRRRRRRR....EEEEEEEEEEEEE.....AAAA...AAAAA...AIIII..
+//.LLLLL..........IIII..IBBBB.....BBBBBB..RRRRRRRRRRRR.....EEEEE............AAAAAAAAAAAAA...AIIII..
+//.LLLLL..........IIII..IBBBB......BBBBB..RRRR....RRRRR....EEEEE............AAAAAAAAAAAAA...AIIII..
+//.LLLLL..........IIII..IBBBB......BBBBB..RRRR....RRRRR....EEEEE............AAAAAAAAAAAAAA..AIIII..
+//.LLLLL..........IIII..IBBBB.....BBBBBB..RRRR.....RRRRR...EEEEE...........AAAAA.....AAAAA..AIIII..
+//.LLLLLLLLLLLLL..IIII..IBBBBBBBBBBBBBBB..RRRR.....RRRRRR..EEEEEEEEEEEEEEE.AAAAA......AAAA..AIIII..
+//.LLLLLLLLLLLLL..IIII..IBBBBBBBBBBBBBB...RRRR......RRRRR..EEEEEEEEEEEEEEEEAAAA.......AAAAA.AIIII..
+//.LLLLLLLLLLLLL..IIII..IBBBBBBBBBBBBB....RRRR.......RRRRR.EEEEEEEEEEEEEEEEAAAA.......AAAAA.AIIII..
+//.................................................................................................
+/*
+Root
+Basic Text and Titles
+Backgrounds
+Paddings
+Menu
+Intro Section
+Footer
+About Us
+Partner Slider
+Project Card
+Buttons
+Engangement
+Other
+*/
+/*
+* === Root ===
+*/
 :root {
   --primary: #186399;
   --secondary: #ffa514;
@@ -12,10 +49,9 @@
   --font-family-monospace: "Roboto Mono", monospace;
 }
 
-/**
- * TYPO font-family: 'Roboto', sans-serif; font-family: 'Roboto Mono',
- * monospace; font-family: 'Source Sans Pro', sans-serif;
- */
+/*
+* === Basic Text and Titles ===
+*/
 .text-mono {
   font-family: var(--font-family-monospace) !important;
 }
@@ -54,42 +90,6 @@ p {
 
 .text-hue2 {
   color: var(--hue2) !important;
-}
-
-.bg-dark {
-  background-color: var(--dark) !important;
-}
-
-.bg-light {
-  background-color: var(--light) !important;
-}
-
-.bg-light-1 {
-  background-color: rgba(250, 248, 245, 0.9);
-}
-
-.bg-primary {
-  background-color: var(--primary) !important;
-}
-
-.bg-secondary {
-  background-color: var(--secondary) !important;
-}
-
-.bg-tertiary {
-  background-color: var(--tertiary) !important;
-}
-
-.bg-hue1 {
-  background-color: var(--hue1) !important;
-}
-
-.bg-hue2 {
-  background-color: var(--hue2) !important;
-}
-
-.bg-hue3 {
-  background-color: var(--hue3) !important;
 }
 
 .title-1 {
@@ -180,11 +180,48 @@ p {
   line-height: 1.5;
 }
 
-/**
- * ---------------------------------------------------------------------
- * Sections padding
- * ---------------------------------------------------------------------
- */
+/*
+* === Backgrounds ===
+*/
+.bg-dark {
+  background-color: var(--dark) !important;
+}
+
+.bg-light {
+  background-color: var(--light) !important;
+}
+
+.bg-light-1 {
+  background-color: rgba(250, 248, 245, 0.9);
+}
+
+.bg-primary {
+  background-color: var(--primary) !important;
+}
+
+.bg-secondary {
+  background-color: var(--secondary) !important;
+}
+
+.bg-tertiary {
+  background-color: var(--tertiary) !important;
+}
+
+.bg-hue1 {
+  background-color: var(--hue1) !important;
+}
+
+.bg-hue2 {
+  background-color: var(--hue2) !important;
+}
+
+.bg-hue3 {
+  background-color: var(--hue3) !important;
+}
+
+/*
+* === Paddings ===
+*/
 .s3 {
   padding: 3% 0;
 }
@@ -197,12 +234,13 @@ p {
   padding: 5% 0;
 }
 
-/* Pricing */
-.text-white {
-  color: var(--light);
+.full-height {
+  height: 70%;
 }
 
-/* Menu */
+/*
+* === Menu ===
+*/
 .text-menu {
   padding-right: 4rem;
   font-family: var(--font-family-monospace);
@@ -212,6 +250,9 @@ a.text-menu {
   color: var(--light) !important;
 }
 
+/*
+* === Intro section ===
+*/
 .intro {
   padding-top: 20% !important;
   padding-right: 15% !important;
@@ -256,52 +297,25 @@ a.text-menu {
 }
 
 .intro-bg {
-  background-image: url(/img/p1.svg);
+  background-image: url(/img/p1.png);
+  background-size: 450px;
+}
+
+@media (min-width : 768px) {
+  .intro-bg {
+    background-size: 768px;
+  }
 }
 
 @media (min-width : 1200px) {
   .intro-bg {
     background-size: 1200px;
-    background-position-x: -15rem;
-    background-position-y: -4rem;
   }
 }
 
 /*
-
-@media (min-width: 576px) {
-  .intro-bg {
-    background-size: 50%;
-  }
-}
-
-@media (min-width: 768px) {
-  .intro-bg {
-    background-repeat: repeat;
-    background-position: left -115em top 20rem;
-    background-size: contain;
-  }
-}
-
-@media (min-width: 1200px) {
-  .intro-bg {
-    background-size: cover;
-    background-position-x: -170%;
-    background-position-y: 50%;
-  }
-}
+* === Footer ===
 */
-.full-height {
-  height: 70%;
-}
-
-.partner-img {
-  width: 80%;
-  height: 80%;
-  opacity: 0.5;
-}
-
-/* Footer */
 .footer {
   padding: 3rem 1rem 1rem 1rem;
 }
@@ -320,16 +334,23 @@ a.text-footer {
   font-size: 1rem !important;
 }
 
-/* Team */
+/*
+* === About Us ===
+*/
+.partner-img {
+  width: 80%;
+  height: 80%;
+  opacity: 0.5;
+}
+
 .social-icon {
   padding: 0.5em;
   color: var(--dark);
 }
 
-/**
- * -------------------------------------------------- Slick slider
- * --------------------------------------------------
- */
+/*
+* === Partner slider ===
+*/
 .slick-slide {
   margin: 0px 20px;
 }
@@ -436,13 +457,17 @@ a.text-footer {
   display: none;
 }
 
-/* card */
+/*
+* === Project Card ===
+*/
 .card {
   border: 0px;
   background-clip: border-box !important;
 }
 
-/* Button */
+/*
+* === Buttons ===
+*/
 .button {
   display: inline-block;
   padding: 0.375rem 0.75rem;
@@ -605,6 +630,9 @@ a.text-footer {
   box-shadow: 0 0 0 0rem rgba(0, 123, 255, 0.5) !important;
 }
 
+/*
+* === Engangement solution ===
+*/
 .list {
   margin: 4rem 0 2rem;
   padding: 0;
@@ -749,13 +777,6 @@ a.text-footer {
   }
 }
 
-/**
- * @media (max-width : 1000px) { .list-connected .list-item::after { top: 15%;
- * right: auto; left: 0; height: calc(100% + 1rem); } }
- *
- * @media (max-width : 450px) { .list-connected .list-item::after { top: 15%;
- * right: auto; left: 0; height: calc(100% + 1rem); } }
- */
 .list-connected .list-item:nth-child(2)::before {
   background-color: var(--hue2);
 }
@@ -794,6 +815,9 @@ a.text-footer {
   }
 }
 
+/*
+* === other stuff ===
+*/
 .order-1 {}
 
 @media (max-width : 576px) {
@@ -807,9 +831,10 @@ a.text-footer {
 }
 
 .fa-heart {
-  color: var(--light)
+  color: var(--light);
 }
 
 .text-cc {
   font-size: 0.8rem !important;
 }
+html, body { overflow-x: hidden; }

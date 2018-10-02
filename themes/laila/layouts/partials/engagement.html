@@ -1,84 +1,36 @@
+{{ printf "<!-- Engagement section -->" | safeHTML }}
 <section class="s5">
   <div class="container">
-
+    {{/* Look for title and subtitle in the config.toml */}}
     {{- with .Site.Params.engagement }}
-
-
     <div class="pt-5 text-center ">
       <div class="container">
         <div class="row">
           <div class="col-md-9 mx-auto">
-            <h1 class="title-2 text-dark text-mono pb-3">{{ .title }}</h1>
+            <h2 class="title-2 text-dark text-mono pb-3">{{ .title }}</h2>
             <p class="subtitle-2 text-dark pb-4">{{ .subtitle }}</p>
           </div>
         </div>
       </div>
     </div>
-
     <ul class="list list-small list-connected">
+      {{/* Look for three engangement items */}}
       {{- range .item }}
       <li class="list-item">
-
         <div class="row d-flex justify-content-around">
-
           <div class="col-sm-12 col-md-6">
+            {{/* Title */}}
             <h3 class="title-3 e-title">{{ .title }}</h3>
           </div>
-
           <div class="col-sm-12 col-md-6">
+            {{/* Description */}}
             <p class="subtitle-3 e-description">{{ .description }}</p>
           </div>
-
           <hr>
         </div>
-
       </li>
-
       {{- end }}
     </ul>
-
-
   </div>
 </section>
 {{- end }}
-
-<!--
-<section class="s5">
-  <div class="container">
-
-    {{- with .Site.Params.engagement }}
-    <div class="row justify-content-center">
-      <div class="col-md-12 text-center pb-3">
-        <h2 class="title-2 text-mono">{{ .title }}</h2>
-      </div>
-    </div>
-    <div class="row justify-content-center pb-5">
-      <div class="col-8 text-center">
-        <h4 class="subtitle-2 pb-5 text-mono">{{ .subtitle }}</h4>
-      </div>
-    </div>
-
-
-    {{- range .item }}
-    <div class="row justify-content-center align-items-center pb-5">
-      <div class="col-4 text-center">
-        <img src="{{ .image | absURL }}" class="img-fluid" alt="">
-      </div>
-        <div class="col-sm-7">
-          <div class="row">
-            <div>
-              <h3 class="title-3">{{ .title }}</h3>
-              <hr>
-              <p class="subtitle-2">{{ .description }}</p>
-            </div>
-            <hr>
-          </div>
-        </div>
-      </div>
-      {{- end }}
-
-    </div>
-</section>
-{{- end }}
-
--->

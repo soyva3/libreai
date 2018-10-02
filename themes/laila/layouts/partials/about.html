@@ -1,11 +1,16 @@
+{{ printf "<!-- About Section -->" | safeHTML }}
+{{/* Look for image, title and subtitle in the config.toml */}}
 {{- with .Site.Params.about }}
 <section class="">
   <div class="container">
     <div class="row text-center">
       <div class="col-md-10 mx-auto">
+        {{/* Image over the text */}}
         <img class="img-fluid laila" src="{{ .image }}">
+        {{/* Title */}}
         <h1 class="title-1 text-mono pt-2">{{ .title }}</h1>
-        <p class="subtitle-1  pb-5" >{{ .about }}</p>
+        {{/* Subtitle */}}
+        <p class="subtitle-1  pb-5">{{ .about }}</p>
       </div>
     </div>
   </div>

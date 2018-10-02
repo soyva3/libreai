@@ -1,9 +1,10 @@
+{{ printf "<!-- Footer Section -->" | safeHTML }}
 <footer class="bg-dark ">
   <div class="py-3">
     <div class="container">
       <div class="row">
-
         <div class="col-sm-12 col-md-6 col-lg-6 p-3">
+          {{/* Look for title, description and trademark in config.toml */}}
           {{- with .Site.Params.footer }}
           {{- range .text }}
           <h5 class="title-footer">{{ .text }}</h5>
@@ -12,7 +13,7 @@
           {{- end }}
           {{- end }}
         </div>
-
+        {{/* Look for menu items in config.toml */}}
         <div class="col-4 col-md-2 col-lg-2 p-3">
           <h5 class="title-footer"> <b>Main</b> </h5>
           <ul class="list-unstyled">
@@ -23,7 +24,7 @@
             {{- end }}
           </ul>
         </div>
-
+        {{/* Look for text and button text and link in config.toml */}}
         <div class="col-4 col-md-2 col-lg-2 p-3">
           <h5 class="title-footer"> <b>Legal</b> </h5>
           <ul class="list-unstyled">
@@ -34,9 +35,6 @@
             {{- end }}
           </ul>
         </div>
-
-
-
         <div class="col-4 col-md-2 p-3">
           <h5 class="title-footer"> <b>Follow us</b> </h5>
           <div class="row">
@@ -52,13 +50,11 @@
         </div>
       </div>
       <hr>
-
       <div class="row justify-content-center">
         <div class="col-12 text-center">
           <p class="mb-0 mt-2 text-light text-cc">Except where otherwise noted, content on this site is licensed under a<i class="fab fa-creative-commons fa-lg d-inline px-2 "></i><a class="text-highlight text-cc" href="https://creativecommons.org/licenses/by/4.0/" target="_blank">Creative Commons Attribution 4.0 International license</a>.</p>
         </div>
       </div>
-
       <div class="row justify-content-center">
         <div class="col-12 text-center">
           <p class="mb-0 mt-2 text-light text-cc">Designed with <i class="fas fa-heart d-inline"></i> by <a class="text-highlight text-cc" href="https://tothemoon.uy" target="_blank">To The Moon Studio</a>.
@@ -67,3 +63,7 @@
     </div>
   </div>
 </footer>
+
+{{/* Look for text and button text and link in the config.toml */}}
+{{/* and */}}
+{{ printf "<!-- About Section -->" | safeHTML }}
