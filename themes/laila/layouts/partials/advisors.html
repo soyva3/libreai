@@ -1,0 +1,24 @@
+{{- with .Site.Params.team.titleAdvisor }}
+{{ "<!-- Advisor section -->" | safeHTML }}
+<div class="py-5 text-center text-dark" style="">
+  <div class="container">
+    <div class="row">
+      <div class="mx-auto col-md-12">
+        <h1 class="title-2 text-dark text-mono p-3">{{ . }}</h1>
+      </div>
+    </div>
+    <div class="row py-5">
+      {{- end }}
+      {{- with .Site.Params.team }}
+      {{- range .advisor }}
+      {{- if .img }}
+      <div class="col-12 col-sm-4 "> <img class="img-fluid rounded-circle pb-4" src="{{ .img | absURL }}" alt="" width="200">
+        <h4 class="subtitle-2 text-mono text-center"><b>{{ .name }}</b></h4>
+        <p class="text-center">{{ .position }}</p>
+      </div>
+      {{- end }}
+      {{- end }}
+      {{- end }}
+    </div>
+  </div>
+</div>

@@ -154,7 +154,9 @@ enableRobotsTXT = "true"
   # ======================================
 
 [params.team]
-	title = ""
+  titleAdvisor ="Advisors"
+  titleFellow ="Fellows"
+
 	[[params.team.founder]]
 		name = "Dr. Ernesto Diaz-Aviles"
 		position = "Co-Founder and CEO"
@@ -182,6 +184,34 @@ enableRobotsTXT = "true"
 			about = "In 2016, Claudia joined the MIT Media Lab and worked at the MIT Center for Civic Media where she conducted research with the MediaCloud team on identifying influential American news outlets."
 		[[params.team.founder.about]]
 			about = "Claudia was a researcher at the L3S Research Center in the Leibniz University in Hannover, Germany, where she received her Master's of Science degree. During her stay at the L3S Research Center, she worked on several European projects involving research on crowdsourcing, multimedia information retrieval, and sentiment analysis applied to video ranking and presidential popularity prediction. Claudia also holds a B.Sc. degree from the University of El Salvador (UES)."
+
+  [[params.team.advisor]]
+  img = "img/cat.png"
+  name = "Random Name"
+  position = "Serendipity"
+  [[params.team.advisor]]
+  img = "img/cat.png"
+  name = "Random Name"
+  position = "Serendipity"
+  [[params.team.advisor]]
+  img = "img/cat.png"
+  name = "Random Name"
+  position = "Serendipity"
+
+
+  [[params.team.fellow]]
+  img = "img/cat.png"
+  name = "Random Name"
+  position = "Serendipity"
+  [[params.team.fellow]]
+  img = "img/cat.png"
+  name = "Random Name"
+  position = "Serendipity"
+  [[params.team.fellow]]
+  img = "img/cat.png"
+  name = "Random Name"
+  position = "Serendipity"
+
 
   # ======================================
   # ====================================== Project Intro Section (projects page)
