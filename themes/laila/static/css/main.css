@@ -297,7 +297,7 @@ a.text-menu {
 }
 
 .intro-bg {
-  background-image: url(/img/p3.png);
+  background-image: url(/img/pat.png);
   background-size: 450px;
 }
 
@@ -842,4 +842,7 @@ a.text-footer {
 .text-cc {
   font-size: 0.8rem !important;
 }
-html, body { overflow-x: hidden; }
+
+html, body {
+  overflow-x: hidden;
+}
