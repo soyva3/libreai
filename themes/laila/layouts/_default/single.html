@@ -1,11 +1,22 @@
-{{ partial "navbar.html" . }}
+<!doctype html>
+<html class="no-js" lang="en">
 
-{{ partial "intro.html" . }}
+<head>
 
-{{ partial "service.html" . }}
+  {{ partial "head.html" . }}
+  {{ partial "js.html" . }}
 
-{{ partial "partner.html" . }}
+</head>
 
-{{ partial "form.html" . }}
+<body>
 
-{{ partial "projects.html" . }}
+  {{ partial "navbar.html" . }}
+  <div class="container p-5 mt-2">
+
+    {{ .Content }}
+</div>
+  {{ partial "footer.html" . }}
+
+</body>
+
+</html>

@@ -38,14 +38,17 @@ enableRobotsTXT = "true"
     link = "/about"
     text = "Who we are"
 		icon = ""
+    target = ""
   [[params.navbar.menu]]
     link = "/project"
     text = "Projects"
 		icon = ""
+    target = ""
 	[[params.navbar.menu]]
 		link = "https://medium.com/libreai"
 		text = "Blog"
 		icon = "fab fa-medium"
+    target = "_blank"
 
   # ======================================
   # ====================================== Intro Section
@@ -123,10 +126,10 @@ enableRobotsTXT = "true"
 [params.footer]
 	[[params.footer.menu]]
 	text = "Privacy Policy"
-	link = "#"
+	link = "/privacy-policy"
 	[[params.footer.menu]]
 	text = "Terms and Conditions"
-	link = "#"
+	link = "/terms-and-conditions"
 
 	[[params.footer.icon]]
 	icon = "fab fa-facebook fa-lg"
